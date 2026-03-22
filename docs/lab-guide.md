@@ -24,6 +24,8 @@ By the end of this lab you will be able to:
 
 ## 3. Background concepts
 
+For a fuller map of concepts to Azure resource types, diagrams, and module boundaries, see **[Concepts and architecture](./concepts-and-architecture.md)**.
+
 ### Virtual networks and subnets
 
 An Azure **virtual network (VNet)** is a private IP space in a region. You carve it into **subnets** so you can assign different trust levels and policies: here, an **app** tier (`snet-app`) and a **db** tier (`snet-db`). Routing between subnets in the same VNet is allowed by default; **what is allowed at the TCP/UDP level** is enforced by **NSGs** and (for some designs) firewalls. Keeping tiers in separate subnets is a standard way to attach different NSGs and to grow toward hub-spoke or shared services later.
