@@ -20,7 +20,7 @@
     "appPrivateIps": { "value": ["10.0.1.4", "10.0.1.5"] },
     "vmDbName": { "value": "vm-db-01" },
     "vmDbPrivateIp": { "value": "10.0.2.4" },
-    "vmAppSize": { "value": "Standard_B1ms" },
+    "vmAppSize": { "value": "Standard_B2ms" },
     "vmDbSize": { "value": "Standard_B2ms" },
     "appDataDiskSizeGb": { "value": 64 },
     "dbDataDiskSizeGb": { "value": 64 },
